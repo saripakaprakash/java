@@ -1,0 +1,11 @@
+package com.training;
+
+public class LifeInsurance {
+	   
+	  private long policyNumber;
+	  private String policyType;
+	  private double policyAmount;
+	  private double premium;
+	  private String paymentmode;
+
+}

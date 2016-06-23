@@ -1,0 +1,20 @@
+package com.training;
+
+public class Application {
+	
+	public static void main(String[] args) {
+		
+		  LifeInsurance policy = new LifeInsurance();
+		  
+		  PolicyHolder holder = new PolicyHolder();
+		  
+		  InsuranceAgent agent=new InsuranceAgent();
+		 
+		  double premiumAmount = agent.calculatePremium( policy);
+		  
+		  String message= holder.paypremium(premiumAmount);
+		  
+		  System.out.println(message);
+	}
+
+}
